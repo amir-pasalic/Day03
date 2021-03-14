@@ -1,20 +1,15 @@
-function main (numOne, numTwo) {
+function main(numOne, numTwo) {
+  // Only change code below this line
+  var product;
 
-    var product ;
-    var numOne =15;
-    var numTwo =3;
-    
-    product = numOne * numTwo
-    
-    
+  product = numOne * numTwo;
+  // Only change code above this line
 
-return product ;
-    
-
-
+  return product;
 }
 
+console.log(main(15, 3)); // Change this line
+console.log(main(25, 8));
+console.log(main(425, 10));
 
-console.log(main(15,3));
-
-module.export = main;
+module.exports = main;

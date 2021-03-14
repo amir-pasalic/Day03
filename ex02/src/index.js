@@ -1,12 +1,10 @@
-function main () {
-
-    // This i a single line comment comment 
-    /* This is a multi-line comment comment
+function main() {
+  // This i a single line comment comment
+  /* This is a multi-line comment comment
     comment ....
     */
-
 }
 
-main();
+console.log(main());
 
-module.export = main;
+module.exports = main;

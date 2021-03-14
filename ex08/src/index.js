@@ -1,20 +1,15 @@
-function main (numOne, numTwo) {
+function main(numOne, numTwo) {
+  //Only change code below this line
+  var sum;
 
-    var sum ;
-    var numOne =15;
-    var numTwo =8;
-    
-    sum = numOne + numTwo
-    
-    
+  sum = numOne + numTwo;
+  //Only change code above this line
 
-return sum ;
-    
-
-
+  return sum;
 }
 
+console.log(main(15, 8)); //change this line
+console.log(main(5, 28));
+console.log(main(150, 425));
 
-console.log(main(15,8));
-
-module.export = main;
+module.exports = main;

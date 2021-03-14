@@ -1,10 +1,9 @@
-function main () {
-
-    var forCat;
-     
-
+function main() {
+  //Only change code below this line
+  var forCat;
+  //Only change code above this line
 }
 
-main();
+console.log(main());
 
-module.export = main;
+module.exports = main;

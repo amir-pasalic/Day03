@@ -1,20 +1,14 @@
-function main (numOne, numTwo) {
+function main(numOne, numTwo) {
+  //Only change code below this line
+  var difference;
 
-    var difference ;
-    var numOne =15;
-    var numTwo =8;
-    
-    difference  = numOne - numTwo
-    
-    
-
-return difference ;
-    
-
-
+  difference = numOne - numTwo;
+  //Only change code above this line
+  return difference;
 }
 
+console.log(main(15, 8)); //change this line
+console.log(main(25, 8));
+console.log(main(425, 120));
 
-console.log(main(15,8));
-
-module.export = main;
+module.exports = main;
